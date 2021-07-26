@@ -19,6 +19,8 @@ h1 {
     font-style: normal;
     font-weight: normal;
     font-size: 4rem;
+    height: fit-content;
+    vertical-align: top;
     /* line-height: 116px; */
     /* display: flex; */
 
@@ -31,22 +33,24 @@ h1 {
 
 h2 {
     font-family: Raleway;
-    font-style: normal;
+    font-style:normal;
     font-weight: 300;
-    font-size: 3rem;
-    line-height: 80%;
+    font-size: 6vh;
+    padding-top: 1vh;
+    line-height: 100%;
     /* or 77px */
-    text-align: center;
+    /* text-align: center; */
     font-variant: small-caps;
     color: #1556B8;
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
 text-orientation: upright;
 margin: auto;
+height: 65vh;
 }
 h3 {
-    font-family: Rosario;
+    font-family: Raleway;
     font-style: normal;
-    font-weight: bold;
+    font-weight:100;
     font-size: 2rem;
     line-height: 44px;
     /* identical to box height */
@@ -54,7 +58,7 @@ h3 {
     align-items: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
     
-    color: #676767;
+    color: #1556B8;
 }
 h4 {
     font-family: Rosario;
@@ -69,7 +73,7 @@ h4 {
     text-decoration-line: underline;
     font-feature-settings: 'pnum' on, 'onum' on;
     
-    color: #6FA8FF;
+    color: #1556B8;
 }
 .titlecontainer {
     position: absolute;
@@ -89,7 +93,7 @@ h4 {
     width: 8vw;
     height: 8vw;
     border-radius: 50%;
-    border: #1556B8 solid 0.3rem;
+    border: #1556B8 solid 0.5vh;
     text-align: center;
     vertical-align:top;
     margin: auto;
@@ -125,7 +129,7 @@ footer {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-content: flex-end;
     align-items:center;
     text-align: right;
